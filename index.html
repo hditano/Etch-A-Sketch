@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <title>Etch a Sketch Project</title>
   </head>
   <body>
@@ -19,7 +20,16 @@
       <div class="grid-container"></div>
     </div>
     <div class="buttons">
-      <button class="clear-btn">Clear</button>
+      <div class="main-buttons">
+        <button class="clear-btn">Clear</button>
+        <input
+          type="text"
+          class="range-btn"
+          name="range-btn"
+          placeholder="Type your grid size (1-100)"
+        />
+        <button type="submit" class="range-submit">Submit</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

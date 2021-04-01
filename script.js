@@ -46,7 +46,6 @@ function clearGrid() {
 container.addEventListener("mouseover", function (e) {
   if (e.target.matches(".grid-unit")) {
     e.target.classList.add("grid-unit-fill");
-    console.log(e.target);
   }
 });
 

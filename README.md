@@ -1,5 +1,5 @@
 # Etch-A-Sketch
-**This is a browser version of Rock, Paper and Scissors game from [The Odin Project](www.theodinproject.com)**
+**This is a browser version of Etch A Sketch Project from [The Odin Project](www.theodinproject.com)**
 
 ## Outcome of this project:
 * DOM Manipulation

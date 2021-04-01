@@ -23,13 +23,16 @@
 .grid-container {
   display: flex;
   flex-direction: row;
-  border: 2px solid red;
-  margin: 0 420px;
+  border: 1px solid #333;
+  margin: 0 417px;
   justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .grid-unit {
   border: 1px solid burlywood;
-  background-color:purple;
-  width: 20px;
+  background-color:white;
+  flex-grow: 1;
+  height: 15px;
+  width: 15px;
 }
